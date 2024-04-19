@@ -1,12 +1,15 @@
 import React from 'react'
 import Wrapper from './layout-wrapper/wrapper'
+import Home from './(home)/page';
 
-const Hello = () => {
-  return (
-    <Wrapper>
-      Hello World
-    </Wrapper>
-  )
+export const metadata = {
+    title: "Home - Homez",
+};
+
+export default function MainRoot() {
+    return (
+        <Wrapper>
+            <Home />
+        </Wrapper>
+    );
 }
-
-export default Hello
