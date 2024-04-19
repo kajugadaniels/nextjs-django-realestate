@@ -1,3 +1,5 @@
+import Header from "@/components/Header";
+
 export const metadata = {
     title: "Home || Homez",
 };
@@ -5,6 +7,7 @@ export const metadata = {
 const Home = () => {
     return (
         <div>
+            <Header />
             Home
         </div>
     )
