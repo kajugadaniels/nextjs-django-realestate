@@ -1,8 +1,11 @@
 import React from 'react'
+import Wrapper from './layout-wrapper/wrapper'
 
 const Hello = () => {
   return (
-    <div>Hello</div>
+    <Wrapper>
+      Hello World
+    </Wrapper>
   )
 }
 
