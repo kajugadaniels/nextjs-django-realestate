@@ -1,9 +1,36 @@
-import React from 'react'
+const SocialLinks = () => {
+    const socialLinks = [
+        {
+            id: 1,
+            iconClass: "fab fa-facebook-f",
+            href: "#",
+        },
+        {
+            id: 2,
+            iconClass: "fab fa-x",
+            href: "#",
+        },
+        {
+            id: 3,
+            iconClass: "fab fa-instagram",
+            href: "#",
+        },
+        {
+            id: 4,
+            iconClass: "fab fa-linkedin-in",
+            href: "#",
+        },
+    ];
 
-const Social = () => {
     return (
-        <div>Social</div>
-    )
-}
+        <>
+            {socialLinks.map((link) => (
+                <a className="me-3" href={link.href} key={link.id}>
+                    <i className={link.iconClass}></i>
+                </a>
+            ))}
+        </>
+    );
+};
 
-export default Social
+export default SocialLinks;
