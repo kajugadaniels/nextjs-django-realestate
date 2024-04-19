@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import MainMenu from './MainMenu'
-import SidebarPanel from './SidebarPanel'
+import SidebarPanel from './sidebar-panel';
 import LoginSignupModal from './login-signup-modal';
 
 const Header = () => {
