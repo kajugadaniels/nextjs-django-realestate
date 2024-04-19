@@ -21,17 +21,14 @@ const Home = () => {
                             <div className="col-xl-6">
                                 <Hero />
                             </div>
-                            {/* End .col-xl-8 */}
 
                             <div className="col-xl-6">
                                 <div className="home7-main-slider">
                                     <HeroSlide />
                                 </div>
                             </div>
-                            {/* End .col-xl-4 */}
                         </div>
                     </div>
-                    {/* End .container */}
                 </div>
             </section>
         </div>
