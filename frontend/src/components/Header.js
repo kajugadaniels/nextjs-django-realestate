@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import MainMenu from './MainMenu'
 import SidebarPanel from './SidebarPanel'
-import LoginSignupModal from './LoginSignupModal'
+import LoginSignupModal from './login-signup-modal';
 
 const Header = () => {
     const [navbar, setNavbar] = useState(false);
